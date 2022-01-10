@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+    </style>
+</head>
+<body>
+    <!-- <h1>Etch-A-Sketch</h1> -->
+    <section class="etch-a-sketch-container">
+        <section class="etch-a-sketch-top">
+            <div id="colorPickerMask">
+                <input type="color" id="colorPicker">
+            </div>
+            <button class="selectableOne selected" id="hoverDraw">Hover Draw</button>
+            <button class="selectableOne" id="clickDraw">Click Draw</button>
+            <button class="selectableTwo selected" id="color">Color</button>
+            <button class="selectableTwo" id="gray">Opacity</button>
+            <button class="selectableTwo" id="rainbow">Rainbow</button>
+            <button class="selectableTwo" id="eraser">Eraser</button>
+            <button id="clear">Clear</button>
+            <div id="sliderContainer">
+                <input type="range" min="2" max="100" class="slider" id="range">
+            </div>
+            <h3>Pixel Size</h3>
+        </section>
+        <section class="etch-a-sketch-main">
+            <section class="drawing-area"></section>
+        </section>
+        <section class="etch-a-sketch-bottom">
+
+        </section>
+    </section>
+</body>
+<script src="scripts.js"></script>
+</html>
