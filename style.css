@@ -14,7 +14,8 @@ body {
     background-color: #b9bdc0;
 }
 
-h1, h3 {
+h1,
+h3 {
     font-family: 'Ubuntu Condensed', sans-serif;
     margin-bottom: 0;
 }
